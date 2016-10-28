@@ -1,4 +1,5 @@
 language: perl
+install: true
 before_install:
     - sudo apt-get install -qq libjson-perl
 script:
